@@ -9,6 +9,13 @@ div{
        font-size: 1em; 
        font-family: sans-serif; 
        min-width: 450px; box-shadow: 0 0 20px rgba(0, 0, 0, 0.15); 
+       margin-top: auto;
+      }
+      caption{
+         font-weight: bolder;
+         font-size: larger;
+         font-family: lucida sans;
+         color: beige;
       }
       thead th:nth-child(1) {
          width: 30%;
@@ -28,9 +35,11 @@ div{
        
        th, td {
          padding: 20px;
+         text-align: center;
+         font-family: lucida sans;
        }
       tr { 
-         background-color: rgb(127, 200, 255); 
+         background-color: beige; 
          color: #121213; 
          text-align: middle;
          border-bottom: 2px solid #009879;
